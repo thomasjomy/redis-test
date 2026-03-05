@@ -1,0 +1,12 @@
+spring:
+  main:
+    allow-circular-references: true
+  server:
+    port: 8085
+    servlet:
+      context-path: /redis
+  redis:
+    data:
+      host: localhost
+      port: 6379
+      password:
